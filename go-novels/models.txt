@@ -1,0 +1,55 @@
+-- Obter todos os sites cadastrados
+[
+    {
+        "id": 1213,
+        "name": "Novel Full Book",
+        "url": "https://novelfullbook.com/",
+        "creationDate": "1970-01-01 00:00:00"
+    }
+]
+
+-- Obter todas as novels cadastradas
+[
+    {
+        "id": 423,
+        "name": "SUPREME MAGUS",
+        "creationDate": "1970-01-01 00:00:00"
+    },
+]
+
+-- Obter todos os sites vinculados as novels
+[
+    {
+        "id": 423,
+        "name": "SUPREME MAGUS",
+        "creationDate": "1970-01-01 00:00:00",
+        "sites": [
+            {
+                "id": 223,
+                "language": "eng",
+                "url": "https://novelfullbook.com/novel-full-book/supreme-magus-novel#tab-description-title",
+                "siteName": "Novel Full Book",
+                "creationDate": "1970-01-01 00:00:00"
+            }
+        ]
+    }
+]
+
+-- Obter todas as novels dos sites
+[
+    {
+        "id": 223,
+        "name": "Novel Full Book",
+        "url": "https://novelfullbook.com/",
+        "creationDate": "1970-01-01 00:00:00",
+        "novels": [
+            {
+                "id": 223,
+                "language": "eng",
+                "url": "https://novelfullbook.com/novel-full-book/supreme-magus-novel#tab-description-title",
+                "title": "SUPREME MAGUS",
+                "creationDate": "1970-01-01 00:00:00"
+            }
+        ]
+    }
+]
